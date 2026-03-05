@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sehrish Hussain Khawaja | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ffffff;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #1e293b;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 26px;
+            color: #0f172a;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: #e2e8f0;
+            padding: 12px;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 500;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="your-photo.jpg" alt="Profile Photo Placeholder">
+        <h1>Sehrish Hussain Khawaja</h1>
+        <p>Software Engineering Undergraduate | Customer Support & Sales Specialist</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                Customer-focused Software Engineering undergraduate currently pursuing BSSE at Indus University (Expected Graduation: December 2026). 
+                I have experience in chat-based sales and administration, with strong communication and problem-solving skills. 
+                Passionate about delivering excellent customer support through email and chat while continuously improving my technical expertise.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">Microsoft Office (Excel, Word, PowerPoint)</div>
+            <div class="skill">Communication & Active Listening</div>
+            <div class="skill">Problem Solving & Critical Thinking</div>
+            <div class="skill">Multitasking & Team Collaboration</div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+
+        <div class="card">
+            <h3>Sales Executive (Chat Support) – Abnotix Solution</h3>
+            <p><strong>Feb 2021 – Sep 2021 | Karachi, Pakistan</strong></p>
+            <ul>
+                <li>Managed client relationships and product queries through chat support.</li>
+                <li>Consistently met and exceeded monthly sales targets.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Administrative Executive – Career Development Society</h3>
+            <p><strong>Jan 2022 – Feb 2024 | Karachi, Pakistan</strong></p>
+            <ul>
+                <li>Maintained records and handled data entry with precision.</li>
+                <li>Collaborated on marketing campaigns and internal coordination.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Sales Executive (Chat Support) – Teals International</h3>
+            <p><strong>Aug 2024 – Oct 2024 | Karachi, Pakistan</strong></p>
+            <ul>
+                <li>Provided real-time support and promoted product benefits.</li>
+                <li>Ensured customer satisfaction through active engagement.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Sales Executive (Chat Support) – Agilo</h3>
+            <p><strong>Dec 2024 – May 2025 | Karachi, Pakistan</strong></p>
+            <ul>
+                <li>Delivered online customer support and resolved concerns efficiently.</li>
+                <li>Strengthened brand trust through proactive communication.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Short description of your project. Replace this with your actual project details.</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Short description of your project. Replace this with your actual project details.</p>
+                <a href="#">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card contact-info">
+            <p><strong>Email:</strong> <a href="mailto:sehrishkhowja1436@gmail.com">sehrishkhowja1436@gmail.com</a></p>
+            <p><strong>Phone:</strong> 0335-2703162</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sehrish-khowja05324b225" target="_blank">linkedin.com/in/sehrish-khowja05324b225</a></p>
+            <p><strong>Location:</strong> Karachi, Pakistan</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Sehrish Hussain Khawaja | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
